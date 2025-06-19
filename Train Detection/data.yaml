@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['car', 'person', 'rail-track', 'traffic-light', 'trains']
+
+roboflow:
+  workspace: roboflow-universe-projects
+  project: train-detection-4ud7c
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-universe-projects/train-detection-4ud7c/dataset/2
